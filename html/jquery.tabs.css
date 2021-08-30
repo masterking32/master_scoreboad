@@ -1,0 +1,65 @@
+/*!
+ * jQuery Tabs - jQuery plugin to create simple vertical and horizontal tabs
+ * Copyright 2017 - Anantajit JG
+ * https://github.com/anantajitjg/jquery-tabs
+ */
+.jq-tab-wrapper {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 1em; }
+  .jq-tab-wrapper.horizontal-tab {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+
+.jq-tab-menu {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  direction:rtl;
+  }
+  .jq-tab-menu .jq-tab-title {
+    background: #222831;
+    border-bottom: 1px solid #ffd369;
+    cursor: pointer;
+    padding: 1em 2em;
+    -webkit-transition: background 0.2s;
+    -o-transition: background 0.2s;
+	text-align: center;
+    transition: background 0.2s; }
+    .jq-tab-menu .jq-tab-title:first-child {
+      border-top: 1px solid #ffd369; }
+    .jq-tab-menu .jq-tab-title:hover, .jq-tab-menu .jq-tab-title.active {
+      background: #ffd369;
+	  color: #000;
+      border-left: 1px solid #505050; }
+
+.horizontal-tab .jq-tab-menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+  .horizontal-tab .jq-tab-menu .jq-tab-title {
+    border-bottom: none;
+    border-right: 1px solid #ffd369;
+    border-left: none; }
+    .horizontal-tab .jq-tab-menu .jq-tab-title:first-child {
+      border-left: 1px solid #ffd369;
+      border-top: none; }
+    .horizontal-tab .jq-tab-menu .jq-tab-title:hover, .horizontal-tab .jq-tab-menu .jq-tab-title.active {
+      border-bottom: 1px solid #505050; }
+
+.jq-tab-content-wrapper {
+  -webkit-box-flex: 4;
+  -ms-flex: 4;
+  flex: 4; }
+
+.jq-tab-content {
+  display: none;
+  padding: 1em 1.8em; }
+  .jq-tab-content.active {
+    display: block; }

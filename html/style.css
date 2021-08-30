@@ -1,0 +1,60 @@
+body {
+    font-family: 'Open Sans';
+    line-height: 1.4em;
+}
+
+/* ------- custom theme for jquery tabs ------*/
+
+.jq-tab-custom .jq-tab-menu .jq-tab-title {
+    background: #d89839;
+    color: #fff;
+}
+
+.jq-tab-custom .jq-tab-menu .jq-tab-title:hover,
+.jq-tab-custom .jq-tab-menu .jq-tab-title.active {
+    background: #c98623;
+    border-left: none;
+    font-weight: bold;
+}
+
+.jq-tab-custom .jq-tab-content-wrapper {
+    border: 1px solid #c5c5c5;
+    color: #333;
+    font-size: 0.9em;
+    line-height: 2em;
+    padding: 0em 2.5em 2em;
+}
+
+.wrap {
+	font-family: 'Open Sans';
+	overflow: auto;
+	width: 40%;
+	height: 40vw;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(34, 40, 49, 0.9);
+	color: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	margin-top: 2%;
+}
+
+.jq-tab-menu{
+	border-bottom: 1px solid #ffd369;
+}
+
+.hr-c{
+	color: #ffd369;
+}
+
+.jobsUsers td{
+	text-align: center;
+}
+
+.jobsUsers table{
+	text-align: center;
+	width: 100%;
+}
+
+.jobsUsers table img{
+	width: 50px;
+}

@@ -64,18 +64,16 @@ ESX.RegisterServerCallback('master_scoreboard:get_all_data', function(source, cb
 	for i=1, #xAll, 1 do
 		local xTarget = ESX.GetPlayerFromId(xAll[i])
 		if xTarget then
-			if xPlayer.job ~= nil and xPlayer.job.name ~= nil then
-				if xPlayer.job.name == "police" then
-					All_Data.police = All_Data.police + 1
-				elseif xPlayer.job.name == "ambulance" then
-					All_Data.ambulance = All_Data.ambulance + 1
-				elseif xPlayer.job.name == "sheriff" then
-					All_Data.sheriff = All_Data.sheriff + 1
-				elseif xPlayer.job.name == "mechanic" then
-					All_Data.mechanic = All_Data.mechanic + 1
-				elseif xPlayer.job.name == "taxi" then
-					All_Data.taxi = All_Data.taxi + 1
-				end
+			if xTarget.job.name == "police" then
+				All_Data.police = All_Data.police + 1
+			elseif xTarget.job.name == "ambulance" then
+				All_Data.ambulance = All_Data.ambulance + 1
+			elseif xTarget.job.name == "sheriff" then
+				All_Data.sheriff = All_Data.sheriff + 1
+			elseif xTarget.job.name == "mechanic" then
+				All_Data.mechanic = All_Data.mechanic + 1
+			elseif xTarget.job.name == "taxi" then
+				All_Data.taxi = All_Data.taxi + 1
 			end
 			
 			if xPlayer.group ~= 'user' then

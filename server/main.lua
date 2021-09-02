@@ -76,7 +76,7 @@ ESX.RegisterServerCallback('master_scoreboard:get_all_data', function(source, cb
 				All_Data.taxi = All_Data.taxi + 1
 			end
 			
-			if xPlayer.group ~= 'user' then
+			if xTarget.group ~= 'user' then
 				All_Data.admins = All_Data.admins + 1
 			end
 		end

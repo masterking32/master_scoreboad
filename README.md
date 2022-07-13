@@ -2,7 +2,7 @@
 
 A scoreboard for FiveM servers. (Support Extendedmode & es_extended)
 
-[MasterkinG32.Store](https://masterking32.store)
+[MasterkinG32.Dev](https://masterking32.dev)
 
 # DEMO
 

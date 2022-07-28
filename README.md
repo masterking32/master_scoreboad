@@ -8,11 +8,11 @@ A scoreboard for FiveM servers. (Support Extendedmode & es_extended)
 
 [Demo Video](https://youtu.be/c2oLZdV25ZI)
 
-[Premium Edition Video](https://www.youtube.com/watch?v=KB8IpK-DVLY) - [Buy Premium Edition](https://masterking32.store) 
+[Premium Edition Video](https://www.youtube.com/watch?v=KB8IpK-DVLY) - [Buy Premium Edition](https://masterking32.dev) 
 
 [CFX Topic](https://forum.cfx.re/t/new-esx-scoreboard-master-scoreboard/4748188)
 
-[Website](https://masterking32.store)
+[Website](https://masterking32.dev)
 
 # REQUIREMENTS
 - [extendedmode](https://github.com/extendedmode/extendedmode) (**Already Tested**) or [es_extended](https://github.com/esx-framework/es_extended)
